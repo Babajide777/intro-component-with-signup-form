@@ -1,10 +1,16 @@
 import React from "react";
-import AllInputs from "./AllInputs";
+import Ad from "./Ad";
+import Footer from "./Footer";
+import Form from "./Form";
+import Header from "./Header";
 
 const EntireComponent = () => {
   return (
     <main>
-      <AllInputs></AllInputs>
+      <Header></Header>
+      <Ad></Ad>
+      <Form></Form>
+      <Footer></Footer>
     </main>
   );
 };

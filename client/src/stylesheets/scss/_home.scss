@@ -7,7 +7,70 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4rem;
-  // background: $first-gradient;
+  margin-top: 3rem;
+  color: #fff;
+  background: url("../../assets/images/bg-intro-desktop.png") no-repeat center,
+    $Red;
+}
+
+main {
+  margin: 0 5%;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  h1 {
+    line-height: 2.5rem;
+    font-weight: map-get($font-weight, bold);
+    margin-bottom: 1rem;
+  }
+}
+
+.ad {
+  background-color: $Blue;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px -6px $Dark-Blue;
+  margin-bottom: 1.5rem;
+  p {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+form {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 10px -6px $Dark-Blue;
+  padding: 0 1rem;
+  padding-top: 1rem;
+
+  input {
+    width: 100%;
+    padding: 1rem;
+  }
+  p {
+    color: $Grayish-Blue;
+    span {
+      color: $Red;
+      font-weight: map-get($font-weight, bold);
+    }
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 // @media screen and (min-width: 450px) and (max-width: 800px) {

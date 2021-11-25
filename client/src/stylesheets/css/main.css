@@ -14,6 +14,69 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4rem;
+  margin-top: 3rem;
+  color: #fff;
+  background: url("../../assets/images/bg-intro-desktop.png") no-repeat center, #ff7a7a;
+}
+
+main {
+  margin: 0 5%;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.header h1 {
+  line-height: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.ad {
+  background-color: #6055a5;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px -6px #3e3c49;
+  margin-bottom: 1.5rem;
+}
+.ad p {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+form {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 10px -6px #3e3c49;
+  padding: 0 1rem;
+  padding-top: 1rem;
+}
+form input {
+  width: 100%;
+  padding: 1rem;
+}
+form p {
+  color: #b9b6d3;
+}
+form p span {
+  color: #ff7a7a;
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
 }
 
 /*# sourceMappingURL=main.css.map */
