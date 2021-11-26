@@ -37,6 +37,9 @@ main {
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
+    span {
+      font-weight: map-get($font-weight, bold);
+    }
   }
 }
 
@@ -46,10 +49,12 @@ form {
   box-shadow: 0 10px 10px -6px $Dark-Blue;
   padding: 0 1rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 
   input {
     width: 100%;
     padding: 1rem;
+    margin-bottom: 1rem;
   }
   p {
     color: $Grayish-Blue;
@@ -57,6 +62,26 @@ form {
       color: $Red;
       font-weight: map-get($font-weight, bold);
     }
+  }
+
+  button {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: $Green;
+    text-transform: uppercase;
+    font-weight: map-get($font-weight, bold);
+    border: none;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    border-radius: 5px;
+    box-shadow: 0 7px 5px -6px $Dark-Blue;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-agreement {
+    text-align: center;
+    font-size: 0.75rem;
   }
 }
 
@@ -78,4 +103,50 @@ footer {
 // }
 
 @media screen and (min-width: 800px) {
+  body {
+    margin: 0;
+  }
+  main {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas:
+      ". . . . . . . ."
+      ". . . . a a a ."
+      ". . . . f f f ."
+      ". h h . f f f ."
+      ". h h . f f f ."
+      ". . . . f f f ."
+      ". . . r r . . .";
+  }
+
+  .ad {
+    grid-area: a;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form {
+    grid-area: f;
+  }
+
+  .header {
+    grid-area: h;
+    text-align: left;
+    align-self: start;
+    h1 {
+      font-weight: map-get($font-weight, bolder);
+      font-size: 2.5rem;
+    }
+  }
+
+  footer {
+    position: relative;
+    grid-area: r;
+    place-self: end;
+  }
 }
