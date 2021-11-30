@@ -71,6 +71,7 @@ const Form = () => {
       setPasswordDisplay("Password cannot be empty");
     }
   };
+
   return (
     <form action="" className="my-form">
       <input
