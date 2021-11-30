@@ -16,7 +16,7 @@ body {
   gap: 4rem;
   margin-top: 3rem;
   color: #fff;
-  background: url("../../assets/images/bg-intro-desktop.png") no-repeat center, #ff7a7a;
+  background: url("../../assets/images/bg-intro-mobile.png") no-repeat center, #ff7a7a;
 }
 
 main {
@@ -56,10 +56,11 @@ form {
   padding: 0 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  position: relative;
 }
 form input {
   width: 100%;
-  padding: 1rem;
+  padding: 0.8rem;
   margin-bottom: 1rem;
 }
 form p {
@@ -68,6 +69,51 @@ form p {
 form p span {
   color: #ff7a7a;
   font-weight: 600;
+}
+form input + div {
+  color: #ff7a7a;
+  text-align: right;
+  font-size: 0.7rem;
+}
+form div + img:nth-of-type(1) {
+  position: absolute;
+  top: 7%;
+  right: 9%;
+}
+form input + div:nth-of-type(1) {
+  position: absolute;
+  top: 17%;
+  right: 4%;
+}
+form div + img:nth-of-type(2) {
+  position: absolute;
+  top: 24%;
+  right: 9%;
+}
+form input + div:nth-of-type(2) {
+  position: absolute;
+  top: 33%;
+  right: 4%;
+}
+form div + img:nth-of-type(3) {
+  position: absolute;
+  top: 40%;
+  right: 9%;
+}
+form input + div:nth-of-type(3) {
+  position: absolute;
+  top: 50%;
+  right: 4%;
+}
+form div + img:nth-of-type(4) {
+  position: absolute;
+  top: 57%;
+  right: 9%;
+}
+form input + div:nth-of-type(4) {
+  position: absolute;
+  top: 67%;
+  right: 4%;
 }
 form button {
   width: 100%;
@@ -88,11 +134,6 @@ form .form-agreement {
   font-size: 0.75rem;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-}
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -102,8 +143,17 @@ footer {
   color: #3e52a3;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
 @media screen and (min-width: 800px) {
   body {
+    background: url("../../assets/images/bg-intro-desktop.png") no-repeat center, #ff7a7a;
     margin: 0;
   }
 
@@ -126,6 +176,46 @@ footer {
 
   form {
     grid-area: f;
+  }
+  form div + img:nth-of-type(1) {
+    position: absolute;
+    top: 8%;
+    right: 6%;
+  }
+  form input + div:nth-of-type(1) {
+    position: absolute;
+    top: 16%;
+    right: 3%;
+  }
+  form div + img:nth-of-type(2) {
+    position: absolute;
+    top: 23%;
+    right: 6%;
+  }
+  form input + div:nth-of-type(2) {
+    position: absolute;
+    top: 33%;
+    right: 3%;
+  }
+  form div + img:nth-of-type(3) {
+    position: absolute;
+    top: 40%;
+    right: 6%;
+  }
+  form input + div:nth-of-type(3) {
+    position: absolute;
+    top: 49%;
+    right: 3%;
+  }
+  form div + img:nth-of-type(4) {
+    position: absolute;
+    top: 56%;
+    right: 6%;
+  }
+  form input + div:nth-of-type(4) {
+    position: absolute;
+    top: 65%;
+    right: 3%;
   }
 
   .header {

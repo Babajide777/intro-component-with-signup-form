@@ -9,7 +9,7 @@ body {
   gap: 4rem;
   margin-top: 3rem;
   color: #fff;
-  background: url("../../assets/images/bg-intro-desktop.png") no-repeat center,
+  background: url("../../assets/images/bg-intro-mobile.png") no-repeat center,
     $Red;
 }
 
@@ -50,10 +50,11 @@ form {
   padding: 0 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  position: relative;
 
   input {
     width: 100%;
-    padding: 1rem;
+    padding: 0.8rem;
     margin-bottom: 1rem;
   }
   p {
@@ -62,6 +63,44 @@ form {
       color: $Red;
       font-weight: map-get($font-weight, bold);
     }
+  }
+
+  input + div {
+    color: $Red;
+    text-align: right;
+    font-size: 0.7rem;
+  }
+
+  div + img:nth-of-type(1) {
+    @include error-img-position(7%, 9%);
+  }
+
+  input + div:nth-of-type(1) {
+    @include error-img-position(17%, 4%);
+  }
+
+  div + img:nth-of-type(2) {
+    @include error-img-position(24%, 9%);
+  }
+
+  input + div:nth-of-type(2) {
+    @include error-img-position(33%, 4%);
+  }
+
+  div + img:nth-of-type(3) {
+    @include error-img-position(40%, 9%);
+  }
+
+  input + div:nth-of-type(3) {
+    @include error-img-position(50%, 4%);
+  }
+
+  div + img:nth-of-type(4) {
+    @include error-img-position(57%, 9%);
+  }
+
+  input + div:nth-of-type(4) {
+    @include error-img-position(67%, 4%);
   }
 
   button {
@@ -85,11 +124,6 @@ form {
   }
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-}
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -98,12 +132,18 @@ footer {
   color: hsl(228, 45%, 44%);
 }
 
-// @media screen and (min-width: 450px) and (max-width: 800px) {
+.hide {
+  display: none;
+}
 
-// }
+.show {
+  display: inline-block;
+}
 
 @media screen and (min-width: 800px) {
   body {
+    background: url("../../assets/images/bg-intro-desktop.png") no-repeat center,
+      $Red;
     margin: 0;
   }
   main {
@@ -132,6 +172,35 @@ footer {
 
   form {
     grid-area: f;
+
+    div + img:nth-of-type(1) {
+      @include error-img-position(8%, 6%);
+    }
+    input + div:nth-of-type(1) {
+      @include error-img-position(16%, 3%);
+    }
+
+    div + img:nth-of-type(2) {
+      @include error-img-position(23%, 6%);
+    }
+
+    input + div:nth-of-type(2) {
+      @include error-img-position(33%, 3%);
+    }
+
+    div + img:nth-of-type(3) {
+      @include error-img-position(40%, 6%);
+    }
+    input + div:nth-of-type(3) {
+      @include error-img-position(49%, 3%);
+    }
+
+    div + img:nth-of-type(4) {
+      @include error-img-position(56%, 6%);
+    }
+    input + div:nth-of-type(4) {
+      @include error-img-position(65%, 3%);
+    }
   }
 
   .header {
