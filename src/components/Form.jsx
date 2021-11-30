@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ErrImg from "../assets/images/icon-error.svg";
 
 const Form = () => {
   const [firstName, setFirstName] = useState("");
@@ -81,7 +82,7 @@ const Form = () => {
         onChange={handleChange}
       ></input>
       <div className={hide1}>{firstDisplay}</div>
-      <img className={hide1} src="/images/icon-error.svg" alt="" />
+      <img className={hide1} src={ErrImg} alt="" />
 
       <input
         name="lastName"
@@ -92,7 +93,7 @@ const Form = () => {
         onChange={handleChange}
       ></input>
       <div className={hide2}>{lastDisplay}</div>
-      <img className={hide2} src="/images/icon-error.svg" alt="" />
+      <img className={hide2} src={ErrImg} alt="" />
 
       <input
         name="email"
@@ -103,7 +104,7 @@ const Form = () => {
         onChange={handleChange}
       ></input>
       <div className={hide3}>{emailDisplay}</div>
-      <img className={hide3} src="/images/icon-error.svg" alt="" />
+      <img className={hide3} src={ErrImg} alt="" />
 
       <input
         name="password"
@@ -114,7 +115,7 @@ const Form = () => {
         onChange={handleChange}
       ></input>
       <div className={hide4}>{passwordDisplay}</div>
-      <img className={hide4} src="/images/icon-error.svg" alt="" />
+      <img className={hide4} src={ErrImg} alt="" />
 
       <button type="submit" className="button" onClick={handleSubmit}>
         Claim your free trial
