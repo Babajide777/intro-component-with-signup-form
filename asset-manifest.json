@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/intro-component-with-signup-form/static/css/main.7b42a108.chunk.css",
+    "main.js": "/intro-component-with-signup-form/static/js/main.fc8b19fd.chunk.js",
+    "main.js.map": "/intro-component-with-signup-form/static/js/main.fc8b19fd.chunk.js.map",
+    "runtime-main.js": "/intro-component-with-signup-form/static/js/runtime-main.6d7dffed.js",
+    "runtime-main.js.map": "/intro-component-with-signup-form/static/js/runtime-main.6d7dffed.js.map",
+    "static/js/2.9ca7d36f.chunk.js": "/intro-component-with-signup-form/static/js/2.9ca7d36f.chunk.js",
+    "static/js/2.9ca7d36f.chunk.js.map": "/intro-component-with-signup-form/static/js/2.9ca7d36f.chunk.js.map",
+    "index.html": "/intro-component-with-signup-form/index.html",
+    "static/css/main.7b42a108.chunk.css.map": "/intro-component-with-signup-form/static/css/main.7b42a108.chunk.css.map",
+    "static/js/2.9ca7d36f.chunk.js.LICENSE.txt": "/intro-component-with-signup-form/static/js/2.9ca7d36f.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/intro-component-with-signup-form/static/media/bg-intro-mobile.02ce3982.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d7dffed.js",
+    "static/js/2.9ca7d36f.chunk.js",
+    "static/css/main.7b42a108.chunk.css",
+    "static/js/main.fc8b19fd.chunk.js"
+  ]
+}
