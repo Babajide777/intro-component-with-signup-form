@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/intro-component-with-signup-form/static/css/main.7b42a108.chunk.css",
-    "main.js": "/intro-component-with-signup-form/static/js/main.1214c7d3.chunk.js",
-    "main.js.map": "/intro-component-with-signup-form/static/js/main.1214c7d3.chunk.js.map",
-    "runtime-main.js": "/intro-component-with-signup-form/static/js/runtime-main.6d7dffed.js",
-    "runtime-main.js.map": "/intro-component-with-signup-form/static/js/runtime-main.6d7dffed.js.map",
-    "static/js/2.9ca7d36f.chunk.js": "/intro-component-with-signup-form/static/js/2.9ca7d36f.chunk.js",
-    "static/js/2.9ca7d36f.chunk.js.map": "/intro-component-with-signup-form/static/js/2.9ca7d36f.chunk.js.map",
-    "index.html": "/intro-component-with-signup-form/index.html",
-    "static/css/main.7b42a108.chunk.css.map": "/intro-component-with-signup-form/static/css/main.7b42a108.chunk.css.map",
-    "static/js/2.9ca7d36f.chunk.js.LICENSE.txt": "/intro-component-with-signup-form/static/js/2.9ca7d36f.chunk.js.LICENSE.txt",
-    "static/media/main.css": "/intro-component-with-signup-form/static/media/bg-intro-mobile.02ce3982.png",
-    "static/media/icon-error.b72f792e.svg": "/intro-component-with-signup-form/static/media/icon-error.b72f792e.svg"
+    "main.css": "/huddle-landing-page-with-alternating-feature-blocks/static/css/main.78a39bd6.chunk.css",
+    "main.js": "/huddle-landing-page-with-alternating-feature-blocks/static/js/main.afbc2dbf.chunk.js",
+    "main.js.map": "/huddle-landing-page-with-alternating-feature-blocks/static/js/main.afbc2dbf.chunk.js.map",
+    "runtime-main.js": "/huddle-landing-page-with-alternating-feature-blocks/static/js/runtime-main.ed107eb6.js",
+    "runtime-main.js.map": "/huddle-landing-page-with-alternating-feature-blocks/static/js/runtime-main.ed107eb6.js.map",
+    "static/js/2.9ca7d36f.chunk.js": "/huddle-landing-page-with-alternating-feature-blocks/static/js/2.9ca7d36f.chunk.js",
+    "static/js/2.9ca7d36f.chunk.js.map": "/huddle-landing-page-with-alternating-feature-blocks/static/js/2.9ca7d36f.chunk.js.map",
+    "index.html": "/huddle-landing-page-with-alternating-feature-blocks/index.html",
+    "static/css/main.78a39bd6.chunk.css.map": "/huddle-landing-page-with-alternating-feature-blocks/static/css/main.78a39bd6.chunk.css.map",
+    "static/js/2.9ca7d36f.chunk.js.LICENSE.txt": "/huddle-landing-page-with-alternating-feature-blocks/static/js/2.9ca7d36f.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/huddle-landing-page-with-alternating-feature-blocks/static/media/bg-intro-mobile.02ce3982.png",
+    "static/media/icon-error.b72f792e.svg": "/huddle-landing-page-with-alternating-feature-blocks/static/media/icon-error.b72f792e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6d7dffed.js",
+    "static/js/runtime-main.ed107eb6.js",
     "static/js/2.9ca7d36f.chunk.js",
-    "static/css/main.7b42a108.chunk.css",
-    "static/js/main.1214c7d3.chunk.js"
+    "static/css/main.78a39bd6.chunk.css",
+    "static/js/main.afbc2dbf.chunk.js"
   ]
 }
